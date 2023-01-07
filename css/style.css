@@ -473,7 +473,7 @@ hr {
 .decor {
    position: relative;
    min-width: 400px;
-   max-width: 600px;
+   max-width: 500px;
    height: auto;
    margin: 120px auto 0;
    background: white;
@@ -536,6 +536,12 @@ hr {
    font-weight: 700;
    font-size: 24px;
    color: #0d0d0d;
+}
+@media (max-width: 600px){ 
+    .decor {
+        min-width: 300px;
+        max-width: 400px;
+    }
 }
 /* The Close Button */
 .close {
