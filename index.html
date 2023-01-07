@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.css">
+    <link
+        href="https://fonts.googleapis.com/css?family=Kaushan+Script|Montserrat:300i,400,500,600,700&amp;subset=cyrillic-ext"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <title>Mogo
+    </title>
+</head>
+
+<body>
+    <header class="header" id="header">
+        <div class="container">
+            <div class="header__inner">
+                <div class="header__logo" data-scroll="#intro">HtMl</div>
+
+                <nav class="nav" id="nav">
+                    <a class="nav__link" href="#" data-scroll="#about">examples</a>
+                    <a class="nav__link" href="#" data-scroll="#services">Apps</a>
+                    <a class="nav__link" href="#" data-scroll="#basics">basics</a>
+                    <a class="nav__link" href="#" data-scroll="#team">team</a>
+                    <a class="nav__link" href="#" data-scroll="#footer">Questions</a>
+                </nav>
+
+                <button class="nav-toggle" id="nav_toggle" type="button">
+                    <span class="nav-toggle__item">Menu</span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+
+    <div class="page">
+        <!-- Qr Code -->
+        <section class="qrcode">
+            <div class="qrcode__container">
+                <div class="qrcode__media">
+                    <div class="media-qrcode">
+                        <div class="media-qrcode-image">
+                            <img src="images/stay-safe/qrcode.jpg" alt="Приложение">
+                        </div>
+                        <div class="media-qrcode__item media-qrcode__item-1"></div>
+                        <div class="media-qrcode__item media-qrcode__item-2"></div>
+                        <div class="media-qrcode__item media-qrcode__item-3"></div>
+                    </div>
+                </div>
+                <div class="qrcode__content">
+                    <div class="qrcode__block-text block-text">
+                        <h2 class="block-text__title block-text__title">
+                            Scan this <span>QrCode.</span>
+                        </h2>
+                        <div class="block-text__text">
+                            If you want to read it by yourselves you can scan this <br> QrCode and go to my own website
+                            on
+                            GitHub <br>
+                            (but you need wifi)
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Intro -->
+        <div class="intro" id="intro">
+            <div class="container">
+                <div class="intro__inner">
+                    <h2 class="intro__suptitle">Which them I chose</h2>
+                    <h1 class="intro__title">HTML coding</h1>
+
+                    <button class="btn" href="#" id="myBtn">Learn More</button>
+
+                    <!-- Modal Window -->
+                    <div class="modal" id="myModal">
+                        <div class="decor">
+                            <span class="close">&times;</span>
+                            <div class="form-left-decoration"></div>
+                            <div class="form-right-decoration"></div>
+                            <div class="circle"></div>
+                            <div class="form-inner">
+                                <h3>What is web coding?</h3>
+                                <p class="form-text">HTML stands for <span class="weight-text">The HyperText
+                                        Markup Language.</span> With HTML we write in Browser-friendly language
+                                    (HyperText Markup) for developing our own structure of website. But only on HTML we
+                                    cant write a beutifull and friendly website we also need CSS and JS. CSS makes
+                                    website more friendly and pretty. JS works with "background" of the site <span
+                                        class="weight-text">in the next slides we will see the difference between blocks
+                                        with and without CSS and other interesting things. Like parallax
+                                        effect here</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- <div class="slider">
+                <div class="container">
+                    <div class="slider__inner">
+                        <div class="slider__item active">
+                            <span class="slider__num">01</span>
+                            <span class="slider__text">Intro</span>
+                        </div>
+                        <div class="slider__item">
+                            <span class="slider__num">02</span>
+                            <span class="slider__text">Work</span>
+                        </div>
+                        <div class="slider__item">
+                            <span class="slider__num">03</span>
+                            <span class="slider__text">About</span>
+                        </div>
+                        <div class="slider__item">
+                            <span class="slider__num">04</span>
+                            <span class="slider__text">Contacts</span>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+
+        </div><!-- /.intro -->
+
+
+
+        <!-- About -->
+        <section class="section" id="about">
+            <div class="container">
+
+                <div class="section__header">
+                    <h3 class="section__suptitle">Why is css so important?</h3>
+                    <h2 class="section__title">Let's compare two blocks</h2>
+                    <div class="section__text">
+                        <p>Below you can see what css does with html. The difference is amazing</p>
+                    </div>
+                </div>
+
+                <div class="exa">
+                    <div class="exa__list">
+                        <div class="exa__item with_css">
+                            <div class="blog__item_ex">
+                                <div class="blog__header">
+                                    <h2 class="chose">With Css</h2>
+                                    <a href="pages/blog-page.html">
+                                        <img class="blog__photo" src="images/blog/3.jpg" alt="">
+                                    </a>
+                                    <div class="blog__date">
+                                        <div class="blog__date-day">15</div>
+                                        Jan
+                                    </div>
+                                </div>
+                                <div class="blog__content">
+                                    <div class="blog__title">
+                                        <a href="">Lorem ipsum dolor sit amet</a>
+                                    </div>
+                                    <div class="blog__text">Consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut
+                                        labore et dolore magna aliqua.</div>
+                                </div>
+                                <div class="blog__footer">
+                                    <div class="blog-stat">
+                                        <span class="blog-stat__item">
+                                            <i class="far fa-eye"></i> 542
+                                        </span>
+                                        <span class="blog-stat__item">
+                                            <i class="far fa-comment-dots"></i> 17
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="exa__item without_css">
+                            <div class="exa-body">
+                                <div class="">
+                                    <h2 class="chose">Without Css</h2>
+                                    <a href="">
+                                        <img class="" src="images/blog/3.jpg" alt="">
+                                    </a>
+                                    <div class="">
+                                        <div class="">15</div>
+                                        Jan
+                                    </div>
+                                </div>
+                                <div class="">
+                                    <div class="">
+                                        <a href="">Lorem ipsum dolor sit amet</a>
+                                    </div>
+                                    <div class="">Consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut
+                                        labore et dolore magna aliqua.</div>
+                                </div>
+                                <div class="">
+                                    <div class="">
+                                        <span class="">
+                                            <i class="far fa-eye"></i> 542
+                                        </span>
+                                        <span class="">
+                                            <i class="far fa-comment-dots"></i> 17
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div><!-- /.container -->
+        </section>
+
+
+        <!-- Statistics -->
+        <div class="statistics">
+            <div class="container">
+
+                <div class="stat">
+                    <div class="stat__item">
+                        <div class="stat__count">1991</div>
+                        <div class="stat__text">HTML</div>
+                    </div>
+                    <div class="stat__item">
+                        <div class="stat__count">1995</div>
+                        <div class="stat__text">HTML 2.0</div>
+                    </div>
+                    <div class="stat__item">
+                        <div class="stat__count">1999</div>
+                        <div class="stat__text">HTML 4.01</div>
+                    </div>
+                    <div class="stat__item">
+                        <div class="stat__count">2012</div>
+                        <div class="stat__text">HTML5</div>
+                    </div>
+                    <div class="stat__item">
+                        <div class="stat__count">2013</div>
+                        <div class="stat__text">XHTML5</div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+        <!-- Services -->
+        <section class="section" id="services">
+            <div class="container">
+
+                <div class="section__header">
+                    <h3 class="section__suptitle">Which apps do I use for developing my own website?</h3>
+                    <h2 class="section__title">The apps that I use</h2>
+                </div>
+
+                <div class="services">
+                    <div class="services__item  services__item--border">
+                        <img class="services__icon" src="images/services/photography.png" alt="">
+                        <div class="services__title">Visual Studio Code</div>
+                        <div class="services__text">With this app I wrote this site. In my opinion it's one of the most
+                            comfortable apps that I have ever used for writing code</div>
+                    </div>
+                    <div class="services__item  services__item--border">
+                        <img class="services__icon" src="images/services/webdesign.png" alt="">
+                        <div class="services__title">Figma</div>
+                        <div class="services__text">Figma, that program a lot of designers use for making the layout.
+                            But also Front end developers use this app to make website from layout. (this is so
+                            useful)</div>
+                    </div>
+                    <div class="services__item  services__item--border">
+                        <img class="services__icon" src="images/services/creativity.png" alt="">
+                        <div class="services__title">Chrome</div>
+                        <div class="services__text">Everyone knows it. It's browser there Front-end developer can "test"
+                            his work</div>
+                    </div>
+                    <div class="services__item">
+                        <img class="services__icon" src="images/services/seo.png" alt="">
+                        <div class="services__title">Live Reload</div>
+                        <div class="services__text">This is a plugin for VS Code which automatically reloads a page when
+                            you save the file.</div>
+                    </div>
+                    <div class="services__item">
+                        <img class="services__icon" src="images/services/css-html.png" alt="">
+                        <div class="services__title">GitHub</div>
+                        <div class="services__text">It's a free hosting for community that want to share their works
+                            with all the world</div>
+                    </div>
+                    <div class="services__item">
+                        <img class="services__icon" src="images/services/digital.png" alt="">
+                        <div class="services__title">Another sources</div>
+                        <div class="services__text">Of course no one can know everything because of that you need to
+                            know how to search information on google.</div>
+                    </div>
+                </div>
+
+            </div><!-- /.container -->
+        </section>
+
+
+        <!-- Devices -->
+        <section class="section  section--devices">
+            <div class="container">
+
+                <div class="section__header">
+                    <h3 class="section__suptitle">Markup needs to be flexible</h3>
+                    <h2 class="section__title">And to work with any device</h2>
+                </div>
+
+                <div class="devices">
+                    <img class="devices__item" src="images/ipad.png" alt="">
+                    <img class="devices__item  devices__item--iphone" src="images/iphone.png" alt="">
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- Wedo -->
+        <section class="section" id="basics">
+            <div class="container">
+
+                <div class="section__header">
+                    <h3 class="section__suptitle">Basics</h3>
+                    <h2 class="section__title">And how they work</h2>
+                    <div class="section__text">
+                        <p>below I will show you a few basics and why we need them</p>
+                    </div>
+                </div>
+
+                <div class="wedo">
+                    <div class="wedo__item">
+                        <img class="wedo__img" src="images/wedo.jpg" alt="">
+                    </div>
+
+                    <div class="wedo__item">
+
+                        <div class="accordion">
+                            <div class="accordion__item active" data-collapse="#wedo_1">
+                                <div class="accordion__header">
+                                    <img class="accordion__icon" src="images/services/photography.png" alt="">
+                                    <div class="accordion__title">Tags</div>
+                                </div>
+                                <div class="accordion__content" id="wedo_1">
+                                    <p>The content of a web page is marked up using HTML tags. For example, "html"
+                                        "body" "p" and more.
+                                        Tags are building blocks of a website. they can be named classes and changed
+                                        with css.
+                                        There are also semantics tags but it's
+                                        not important. If you want to be a good Front-end developer you need to
+                                        know them
+                                        <a class="basics__link"
+                                            href="https://www.miltonmarketing.com/wp-content/uploads/2018/03/mmptag252a97dac120c5384d542fb707c7996b.jpg">
+                                            link to picture</a>
+                                    </p>
+
+                                </div>
+                            </div>
+
+                            <div class="accordion__item" data-collapse="#wedo_2">
+                                <div class="accordion__header">
+                                    <img class="accordion__icon" src="images/services/creativity.png" alt="">
+                                    <div class="accordion__title">Templates</div>
+                                </div>
+                                <div class="accordion__content" id="wedo_2">
+                                    <p>No one likes to do the same thing again and again so a lot of people make
+                                        their templates for faster work. And I also make my own templates and after I
+                                        just copy the right pieces and I dont need to write the
+                                        same things all over again. In my opinion this is a very useful method, isn't
+                                        it?</p>
+                                </div>
+                            </div>
+
+                            <div class="accordion__item" data-collapse="#wedo_3">
+                                <div class="accordion__header">
+                                    <img class="accordion__icon" src="images/services/webdesign.png" alt="">
+                                    <div class="accordion__title">Js - do we need it?</div>
+                                </div>
+                                <div class="accordion__content" id="wedo_3">
+                                    <p>JavaScript is a programming language which we can use with HTML and css. In a
+                                        lot of cases we dont need to use it. But sometimes we can write only 5 lines in
+                                        JS or 100 and more line in css? I think everyone will chose the first option. Js
+                                        is a very difficult language but luckily we dont need to know all the language -
+                                        only
+                                        a
+                                        small piece for web-developing. Also we have a plugin JQuery which helps with
+                                        writing js code.
+                                    </p>
+                                </div>
+                            </div>
+                        </div><!-- /.accordion -->
+
+                    </div><!-- /.wedo__item -->
+                </div><!-- /.wedo -->
+
+            </div>
+        </section>
+
+
+        <!-- Team -->
+        <section class="section" id="team">
+            <div class="container">
+                <div class="section__header">
+                    <h3 class="section__suptitle">website developing stages</h3>
+                    <h2 class="section__title">How many people need to work?</h2>
+                    <div class="section__text">
+                        <p>In the whole procces a minimum of 3 people work: designer, front-End developer and
+                            Back-end Developer In the next slides we will see the difference between them and other
+                            important things</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card__item">
+                        <div class="card__inner">
+                            <div class="card__img">
+                                <img src="images/team/1.jpg" alt="">
+                            </div>
+                            <div class="card__text">
+                                <p>A person who creates a layout according to the words of a client - One of
+                                    the most difficult stages in the cycle of creating a website. If the client
+                                    wants to change somethimg again and again and again
+                                    you will get angry because in the end you change a half of your work and you waste
+                                    your time because "the client wanted it that way"</p>
+                            </div>
+                        </div>
+                        <div class="card__info">
+                            <div class="card__prof">Graphic Designer</div>
+                        </div>
+                    </div><!-- /.card__item -->
+
+                    <div class="card__item">
+                        <div class="card__inner">
+                            <div class="card__img">
+                                <img src="images/team/2.jpg" alt="">
+                            </div>
+                            <div class="card__text">
+                                <p>Front-end developer is a person who works after designer so you need to know how to
+                                    change or export something from the layout and add it to website. Usually designer
+                                    doesnt make a layout version for phones and you need to imagine how it needs to
+                                    look like and to be useful for user </p>
+                            </div>
+                        </div>
+                        <div class="card__info">
+                            <div class="card__prof">Front-end developer</div>
+                        </div>
+                    </div><!-- /.card__item -->
+
+                    <div class="card__item">
+                        <div class="card__inner">
+                            <div class="card__img">
+                                <img src="images/team/3.jpg" alt="">
+                            </div>
+                            <div class="card__text">
+                                <p>Back-End developer is a person who works with the server part of the site.
+                                    Programming
+                                    language: PHP. This
+                                    is the most difficult stage of making a website after the design. Front-end
+                                    developer needs to understand
+                                    what will happen next with his HyperText Markup and think ahead, so that Back-end
+                                    developer can work easier with your code (if you are a Front-end developer)</p>
+                            </div>
+                        </div>
+                        <div class="card__info">
+                            <div class="card__prof">Back-End developer</div>
+                        </div>
+                    </div><!-- /.card__item -->
+
+                </div><!-- /.card -->
+
+            </div><!-- /.container -->
+        </section>
+
+
+        <!-- Map -->
+        <!-- <section class="section  section--map">
+            <div class="container">
+                <div class="map">
+                    <h2 class="map__title">
+                        <div><i class="fas fa-map-marker-alt"></i></div>
+                        <a href="https://goo.gl/maps/F8YpeCGqwrG2" target="_blank">Open Map</a>
+                    </h2>
+                </div>
+            </div>
+        </section> -->
+
+
+        <!-- Footer -->
+        <footer class="footer" id="footer">
+            <div class="container">
+                <div class="footer__inner">
+
+                </div>
+                <div class="copyright">
+                    ©2023 EnglishProject made by <span>Nazarov Maksim</span>
+                </div>
+
+            </div><!-- /.container -->
+        </footer>
+
+    </div><!-- /.page -->
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/modal.js"></script>
+
+</body>
+
+</html>
